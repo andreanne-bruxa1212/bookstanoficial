@@ -2,6 +2,11 @@ body {
 background-color: rgb(26, 78, 60);
 }
 
+h1 {
+        color: blue;
+        font-family: sans-serif;
+    }
+
 .categoria-videos {
   display: flex;
   overflow-x: auto;
