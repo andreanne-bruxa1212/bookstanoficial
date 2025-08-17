@@ -1,7 +1,3 @@
-body {
-    background-color: rgb(48, 93, 96);
-}
-
-h1 {
-    color: black;
+.categoria-videos{
+    display: flex;
 }
