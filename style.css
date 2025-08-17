@@ -9,9 +9,10 @@ h1,h2 {
 
 .marq {
   padding-bottom: 15px;
-  width: 300px;
+  width: 400px;
   height: 80px;
   text-align: center;
+  text-decoration: underline;
 }
 
 .categoria-videos {
