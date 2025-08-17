@@ -5,4 +5,5 @@ background-color: rgb(26, 78, 60);
 .categoria-videos {
   display: flex;
   overflow-x: auto;
+  gap: 10 px;
 }
