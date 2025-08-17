@@ -5,18 +5,19 @@ background-color: rgb(26, 78, 60);
 h1,h2 {
     color: rgb(253, 253, 255);
     font-family: sans-serif;
+    text-decoration: underline;
 }
 
 .marq {
-  padding-bottom: 15px;
-  width: 400px;
-  height: 80px;
+  padding-bottom: 15 px;
+  width: 500 px;
+  height: 80 px;
   text-align: center;
-  text-decoration: underline;
 }
 
 .categoria-videos {
   display: flex;
   overflow-x: auto;
   gap: 10 px;
+  width: 300 px;
 }
