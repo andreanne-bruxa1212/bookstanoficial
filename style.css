@@ -47,4 +47,35 @@ img:hover{
 
 para testar essa alternativa coloque esse codigo em
 subtituicao ao img:hover atual.
+
+outro exemplo mais completo:
+
+este exemplo aplica o escalonamento da imagem e a sombra
+ao mesmo tempo. 
+A div dos videos agora tem um background com cantos arrendondados.
+
+.categoria-videos {
+  width: 680px;
+  background-color: rgba(10, 10, 10, 0.4);
+  padding: 20px;
+  gap: 5px;
+  display: flex;
+  overflow-x: scroll;
+  border-radius: 10px;
+}
+
+a{
+  display: block;
+}
+
+img{
+  height: auto;
+  display: block;
+  transition: transform 0.1s ease-in-out;
+}
+
+img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 1px rgb(168 17 196 / 70%);
+}
 */
