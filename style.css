@@ -9,15 +9,25 @@ h1,h2 {
 }
 
 .marq {
-  padding-bottom: 15 px;
-  width: 500 px;
-  height: 80 px;
+  padding-bottom: 15px;
+  width: 500px;
+  height: 80px;
   text-align: center;
 }
 
 .categoria-videos {
+  border: 0px solid;
   display: flex;
   overflow-x: scroll;
-  gap: 5 px;
-  max-width: 650 px;
+  gap: 0px;
+  max-width: 650px;
+  margin: 10px  
+}
+
+a{
+  margin: 35px 0px 35px 25px; 
+}
+
+img:hover{
+  box-shadow: 0px 3px 44px 1px rgba(191,28,204,0.75);
 }
